@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.section1 h1{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgb(93, 10, 10);
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.section3{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+
