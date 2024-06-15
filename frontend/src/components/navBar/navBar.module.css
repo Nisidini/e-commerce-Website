@@ -1,26 +1,43 @@
 .header{
     display: flex;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 2%;
+    background-color: rgba(199, 210, 40, 0.688);
+    padding: 26px 10px ;
+    border-radius: 20px;
 }
 
 .section1 h1{
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 24px;
     font-family: cursive;
     color: rgb(93, 10, 10);
+ 
 }
 
 .section2{
     display: flex;
     justify-content: space-between;
     width: 50%;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav{
+    background-color: rgba(255, 255, 255, 0.214);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.nav:hover{
+    background-color:rgba(214, 178, 120, 0.2) ;
 }
 .section3{
     display: flex;
     width: 10%;
     justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
 }
 

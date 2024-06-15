@@ -25,16 +25,31 @@ function Products(){
 
     return(
         <>
+         <h1>SHOP NOW</h1>
          <div>
-      <h1>Product List</h1>
       <ul>
+        <div className={s.items}>
         {data.map(product => (
-          <li key={product._id}>
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
+          <li key={product._id} className={s.list}>
+              <div> 
+                <img src={product.thumbnail}  className={s.image}/>
+                <div className={s.details}>
+                  <div className={s.title}>{product.title}</div>
+                  <div>$ {product.price}</div>
+                </div>
+                <div  className={s.section}>
+                  <div>
+                    <p className={s.rating}>{product.rating}</p>
+                  </div>
+                  <div>
+                    <button className={s.cartButton}>Add to cart</button>
+                  </div>
+                </div>
+              </div>
+           
           </li>
         ))}
+        </div>
       </ul>
     </div>  
         {/* <div>dd</div>

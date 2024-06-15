@@ -1,0 +1,70 @@
+.image{
+    width: 200px;
+    height: 240px;
+}
+
+.details{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.title{
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.items{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 95%;
+    margin-left: 3%;
+    padding-top: 5%;
+    
+   
+}
+
+.list{
+    flex: 1 0 21%; /* Adjust the percentage to fit 5 images in a row, you can change this to fit more or fewer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    
+    
+}
+h1{
+   text-align: center;
+    color: rgb(82, 95, 13);
+    margin-top: 5%;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.rating{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.section{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 4%;
+    
+}
+
+.cartButton{
+    background-color: lightsalmon;
+    border: none;
+    padding: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.cartButton:hover{
+    background-color: rgba(243, 119, 70, 0.837);
+}

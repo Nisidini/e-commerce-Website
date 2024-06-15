@@ -1,5 +1,6 @@
 import NavBar from './components/navBar/navBar'
 import Products from './components/products/product'
+import Benefits from './components/benefitsSection/benefits'
 import './App.css'
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
     <>
       <div>
         <NavBar/>
+        <Benefits/>
         <Products/>
+        
       </div>
     </>
   )

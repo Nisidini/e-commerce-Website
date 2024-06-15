@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    width: 170px;
+    height: 130px;
+    background-color: rgba(219, 255, 127, 0.511);
+    border-radius: 12px;
+    border: 1px solid rgb(167, 156, 8);
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-left: 2%;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.box{
+   text-align: center;
+   
+}
+.box h2{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.box p{
+    font-size: 12px;
+}
