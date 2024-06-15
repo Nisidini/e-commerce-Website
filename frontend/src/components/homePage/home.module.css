@@ -1,0 +1,52 @@
+.manisikaLada{
+    color: blue;
+}
+
+.container{
+    width: 1450px;
+    height: 550px;
+    background-color: rgba(173, 183, 180, 0.167);
+    border-radius: 25px;
+    margin-left: 2%;
+    margin-top: 4%;
+    overflow: hidden;
+    
+}
+
+.product1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+.product2{
+    width: 300px;
+    height: 250px;
+    background-color: lightcoral;
+}
+
+.box{
+    display: flex;
+}
+
+.middleContainer{
+    width: 400px;
+    height: 650px;
+    background-color: lightpink;
+}
+
+.sideBox{
+    width: 800px;
+    height: 250px;
+    background-color: lightgreen;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(208, 238, 144);
+}
+
+.bottomBox{
+    display: flex;  
+}
